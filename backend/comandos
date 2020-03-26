@@ -1,0 +1,16 @@
+npm init -y
+npm install express
+npm install nodemon -D
+npm install cors
+
+Instalação do banco
+    npm install knex
+    npm install sqlite3
+    
+migrations 
+    npx knex migrate:make nome_da_tabela Cria
+    npx knex migrate:latest executa
+    npx knex migrate:rollback volta uma execução
+Execução
+    npx knex init
+    npm start
